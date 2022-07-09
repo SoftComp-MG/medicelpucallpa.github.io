@@ -1,0 +1,69 @@
+.main-section-banner{
+    position: relative;
+    height: 100vh !important;
+}
+.main-section-banner .main-banner-info{
+    width: 450px;
+    top: 250px;
+    left: 200px;
+    position: absolute;
+}
+.main-section-banner .main-banner-info h2{
+    padding-bottom: 10px;
+    font-size: 3rem;
+    letter-spacing: .15rem;
+}
+.main-section-banner .main-banner-info p{
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    text-align: justify;
+}
+.main-section-banner .main-banner-info button{
+    margin-top: 20px;
+    padding: 15px 30px;
+    transition: all 0.3s ease;
+}
+.main-section-banner .main-banner-info button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.main-section-banner .main-banner-info button a{
+    font-size: 1.5rem;
+}
+
+.main-section-map{
+    margin:  0 auto;
+    width: 768px;
+    height: auto;
+}
+    
+.main-section-map .container-map-map{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 400px;
+
+}
+
+.main-section-map .img_establecimiento img{
+    width: 400px;
+    height: 400px;
+}
+
+.main-section-map .container-map-text{
+    position: relative;
+    bottom: 110px;
+    width: 50%;
+    color: #fff;
+    text-align: justify;
+    font-size: 1.5rem;
+    margin-bottom: 1.2rem;
+    line-height: 1.5;
+}
+.main-section-map .container-map-text  h1{
+    text-align: center;
+    font-size: 2rem;
+    padding: 25px;
+}
